@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JWD PNB 2022</title>
+    <!-- <link rel="stylesheet" type="text/css" href="style.css" /> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  </head>
+  <body>
+    <!-- Menu Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">VSGA 2022</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Programming </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">PHP</a></li>
+                <li><a class="dropdown-item" href="#">ASP</a></li>
+                <li><a class="dropdown-item" href="#">AJAX</a></li>
+                <li><a class="dropdown-item" href="#">jQuery</a></li>
+                <li><a class="dropdown-item" href="#">MySQL</a></li>
+                <li><a class="dropdown-item" href="#">CSS</a></li>
+                <!-- <li><hr class="dropdown-divider"></li> -->
+                <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Software </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Visual Studi Code</a></li>
+                <li><a class="dropdown-item" href="#">Sublime Text</a></li>
+                <li><a class="dropdown-item" href="#">Notepad ++</a></li>
+                <li><a class="dropdown-item" href="#">XAMPP</a></li>
+                <!-- <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact us.html" style="color: rgb(0, 183, 255)">Contact Us</a>
+            </li>
+          </ul>
+
+          <!-- Menu Pencarian -->
+          <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Cari">
+              <button class="btn btn-outline-success" type="submit">Cari</button>
+            </form> -->
+        </div>
+      </div>
+    </nav>
+    <br />
+
+    <div class="container">
+      <h2 style="text-align: center">DIGITAL TALENT</h2>
+
+      <!-- Nama Lengkap -->
+      <div class="mb-3">
+        <h6 class="mb-2 pb-1">Nama Lengkap</h6>
+        <input type="text" class="form-control" id="namalengkap" placeholder="Masukkan Nama Lengkap anda" />
+      </div>
+
+      <!-- Alamat -->
+      <div class="mb-3">
+        <h6 class="mb-2 pb-1">Alamat</h6>
+        <textarea class="form-control" id="alamat" rows="3" placeholder="Masukkan Alamat anda"></textarea>
+      </div>
+
+      <!-- Kelas -->
+      <div class="mb-3">
+        <h6 class="mb-2 pb-1">Kelas</h6>
+        <select class="form-select">
+          <option selected>Pilih Kelas yang anda inginkan</option>
+          <option value="1">PHP</option>
+          <option value="2">ASP</option>
+          <option value="3">AJAX</option>
+          <option value="4">jQuery</option>
+          <option value="5">MySQL</option>
+          <option value="6">CSS</option>
+        </select>
+      </div>
+
+      <!-- Jenis Kelamin -->
+      <div class="col-md-6 mb-4">
+        <h6 class="mb-2 pb-1">Jenis Kelamin</h6>
+
+        <!-- Laki-laki -->
+        <div class="form-check-inline">
+          <input class="form-check-input" type="radio" name="lakilaki" id="lakilaki" />
+          <label class="form-check-label" for="lakilaki"> Laki-laki </label>
+        </div>
+
+        <!-- Perempuan -->
+        <div class="form-check-inline">
+          <input class="form-check-input" type="radio" name="perempuan" id="perempuan" />
+          <label class="form-check-label" for="perempuan"> Perempuan </label>
+        </div>
+        <br />
+      </div>
+
+      <!-- Tombol Simpan -->
+      <a style="text-align: center" href="#" class="btn btn-primary w-100">SIMPAN</a> <br />
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
